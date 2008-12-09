@@ -10,12 +10,12 @@ Summary:	iPhone Linux Driver
 Summary(de.UTF-8):	iPhone Linux Treiber
 Summary(pl.UTF-8):	Sterownik dla Linuksa do iPhona
 Name:		kernel%{_alt_kernel}-usb-iphone
-Version:	0.2
+Version:	0.3
 Release:	%{rel}@%{_kernel_ver_str}
 License:	GPL
 Group:		Base/Kernel
 Source0:	http://matt.colyer.name/projects/%{origname}/%{origname}-%{version}.tar.gz
-# Source0-md5:	d46de3440e6f797b9809dd8109b0d9e2
+# Source0-md5:	18d5f51b4c207c1378447c545023576a
 URL:		http://matt.colyer.name/projects/iphone-module/
 %{?with_dist_kernel:BuildRequires:	kernel-module-build >= 3:2.6.20.2}
 BuildRequires:	rpmbuild(macros) >= 1.379
