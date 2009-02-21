@@ -28,7 +28,7 @@ A kernel module for Linux 2.6.x which allows your iPhone to charge while connect
 (In the future it will hopefully allow you to access your data.)
 
 %prep
-%setup -q -c -n %{name}-%{version}
+%setup -q -n iphone-module-%{version}
 
 %build
 %build_kernel_modules -m iphone
